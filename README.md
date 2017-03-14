@@ -124,4 +124,4 @@
 
 * Triangle area: `0.5 * base * height`
 
-* Triangle perimeter (right isoceles): 2 * height * square root of (2 * height * height)
+* Triangle perimeter (right isoceles): `2 * height * square root of (2 * height * height)`
