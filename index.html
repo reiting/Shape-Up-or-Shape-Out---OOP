@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Shapes</title>
+</head>
+
+<body>
+    <p>Rectangle</p>
+    <div>
+        Width:<br>
+        <input type="number" name="width" id="recWidth"> 
+        Height:
+        <input type="number" name="height" id="recHeight">
+        <button id='rectangle-btn'>Insert</button><br>
+    </div>
+    <p>Square</p>
+    <div>
+        Side:<br>
+        <input type="text" name="side" id="sideLength">
+        <button id='square-btn'>Insert</button><br>
+    </div>
+    <p>Triangle</p>
+    <div>
+        Height:<br>
+        <input type="text" name="height" id="triangleHeight">
+        <button id='triangle-btn'>Insert</button><br>
+    </div>
+    <p>Circle</p>
+    <div>
+        Radius:<br>
+        <input type="number" name="radius" id="CircleRadius">
+        <button id='circle-btn'>Insert</button><br>
+    </div>
+    <div id="sidePanel">
+        <ul>
+            <!--<li><span id Shape Name:</li>-->
+            <li id="width">Width:</li>
+            <li id="height">Height:</li>
+            <li id="radius">Radius:</li>
+            <li id="area">Area:</li>
+            <li id="perimeter">Perimeter:</li>
+        </ul>    
+    </div>
+
+    <div id="drawingSpace"></div>
+</body>
+
+</html>

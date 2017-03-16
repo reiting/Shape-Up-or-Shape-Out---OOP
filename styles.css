@@ -1,0 +1,37 @@
+#drawingSpace {
+    background-color: lightgrey;
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+
+#sidePanel {
+    position: absolute;
+    right:0; 
+    top: 330px;
+    width: 550px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: purple;
+    position: absolute;
+}
+
+.rectangle {
+    background-color: green;
+    position: absolute;
+}
+
+.square {
+    background-color: red;
+    position: absolute;
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent yellow;
+    position: absolute;
+}
