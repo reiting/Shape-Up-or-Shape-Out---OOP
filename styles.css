@@ -1,15 +1,29 @@
+body {
+    background-image: url('http://www.all4-you.com/wp-content/uploads/2016/11/Luxury-Pretty-Tumblr-Backgrounds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#drawContainer {
+    text-align: center;
+}
+
 #drawingSpace {
-    background-color: lightgrey;
+    background-color: lavenderblush;
     height: 600px;
     width: 600px;
     position: relative;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: mediumvioletred;
 }
 
 #sidePanel {
-    position: absolute;
-    right:0; 
-    top: 330px;
-    width: 550px;
+    float: right;
 }
 
 .circle {
@@ -29,9 +43,32 @@
 }
 
 .triangle {
-    height: 0;
-    width: 0;
     border-style: solid;
     border-color: transparent transparent transparent yellow;
     position: absolute;
+}
+
+#CircleRadius {
+    margin-bottom: 1em;
+}
+
+#rectangle-btn {
+    background-color: green;
+    font-size: 1em;
+}
+
+#square-btn {
+    background-color: red;
+    font-size: 1em;
+}
+
+#triangle-btn {
+    background-color: yellow;
+    font-size: 1em;
+}
+
+#circle-btn {
+    background-color: purple;
+    font-size: 1em;
+    color: white;
 }
