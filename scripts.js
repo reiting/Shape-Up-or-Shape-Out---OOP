@@ -56,11 +56,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //describe function to get the info 
     Shape.prototype.describe = function() {
         // label.ShapeName.innerHTML = this.constructor.name;
-        labelWidth.innerHTML = this.width;
-        labelHeight.innerHTML = this.height;
-        labelRadius.innerHTML = this.radius;
-        labelArea.innerHTML = this.area;
-        labelPerimeter.innerHTML = this.perimeter;
+        labelWidth.innerHTML = "Width: " + this.width;
+        labelHeight.innerHTML = "Height: " + this.height;
+        labelRadius.innerHTML = "Radius: " + this.radius;
+        labelArea.innerHTML = "Area: " + this.area;
+        labelPerimeter.innerHTML = "Perimeter: " + this.perimeter;
     }
 
     //create specific Circle class

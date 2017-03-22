@@ -23,7 +23,13 @@ h1 {
 }
 
 #sidePanel {
-    float: right;
+    display: inline-block;
+    position: relative;
+    left: 40em;
+}
+
+li {
+    /*display: inline;*/
 }
 
 .circle {
