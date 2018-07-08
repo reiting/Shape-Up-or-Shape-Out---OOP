@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         this.div.style.height = this.height + 'px';
         //some math to be random
         var x = Math.floor(Math.random() * (600 - this.width));
-        var y = Math.floor(Math.random() * (600 - (this.height + (this.cssClass == "triangle" ? 100 : 0))));
+        var y = Math.floor(Math.random() * (600 - this.height));
         //sets top/left position of shape to be random in px
         this.div.style.top = y + 'px';
         this.div.style.left = x + 'px';
